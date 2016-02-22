@@ -37,8 +37,9 @@ puts area_of_triangle(base, height)
 
 # # Coding
 
-# class Waitlist
-#   def add_party
-
-#   end 
-# end
+class Waitlist
+  def add_party(party_name)
+    party_name << list
+  end
+  puts add_party("Smith") 
+end
