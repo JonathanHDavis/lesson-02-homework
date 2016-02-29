@@ -49,8 +49,8 @@ class Waitlist
 
   def seat
     @list.delete_at(0)
-  return @list
-end
+    return @list
+  end
 end #ends the Waitlist class
 
 waitlist = Waitlist.new
